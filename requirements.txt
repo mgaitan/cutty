@@ -1,0 +1,7 @@
+Django==1.11.1
+django-fullclean==0.0.4
+django-model-utils==3.0.0
+ipython==6.0.0
+Pillow==4.1.1
+ipdb==0.10.3
+-e git+https://github.com/mgaitan/django-milligram.git

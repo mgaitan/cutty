@@ -1,0 +1,1505 @@
+[
+{
+  "model": "main.brand",
+  "pk": 1,
+  "fields": {
+    "name": "Aluar"
+  }
+},
+{
+  "model": "main.system",
+  "pk": 1,
+  "fields": {
+    "brand": 1,
+    "name": "A30New",
+    "price": "100.00",
+    "catalog": ""
+  }
+},
+{
+  "model": "main.system",
+  "pk": 2,
+  "fields": {
+    "brand": 1,
+    "name": "Modena",
+    "price": "90.00",
+    "catalog": ""
+  }
+},
+{
+  "model": "main.profile",
+  "pk": 1,
+  "fields": {
+    "system": 1,
+    "code": "MC-143",
+    "description": "tubo 60x60x1.5",
+    "weight": "0.948",
+    "image": "",
+    "length": 6000
+  }
+},
+{
+  "model": "main.profile",
+  "pk": 2,
+  "fields": {
+    "system": 1,
+    "code": "5965",
+    "description": "encuentro central corrediza de 4 hojas",
+    "weight": "0.288",
+    "image": "",
+    "length": 6000
+  }
+},
+{
+  "model": "main.profile",
+  "pk": 3,
+  "fields": {
+    "system": 1,
+    "code": "5889",
+    "description": "varilla de accionamiento",
+    "weight": "0.141",
+    "image": "",
+    "length": 6000
+  }
+},
+{
+  "model": "main.profile",
+  "pk": 4,
+  "fields": {
+    "system": 1,
+    "code": "5996",
+    "description": "travesa\u00f1o corrediza para vidrio simple",
+    "weight": "0.991",
+    "image": "",
+    "length": 6000
+  }
+},
+{
+  "model": "main.profile",
+  "pk": 5,
+  "fields": {
+    "system": 1,
+    "code": "6065",
+    "description": "gu\u00eda de cortina barrio",
+    "weight": "1.088",
+    "image": "",
+    "length": 6000
+  }
+},
+{
+  "model": "main.profile",
+  "pk": 6,
+  "fields": {
+    "system": 1,
+    "code": "6066",
+    "description": "premarco",
+    "weight": "0.545",
+    "image": "",
+    "length": 6000
+  }
+},
+{
+  "model": "main.profile",
+  "pk": 7,
+  "fields": {
+    "system": 1,
+    "code": "6067",
+    "description": "perfil de acople",
+    "weight": "0.329",
+    "image": "",
+    "length": 6000
+  }
+},
+{
+  "model": "main.profile",
+  "pk": 8,
+  "fields": {
+    "system": 1,
+    "code": "6068",
+    "description": "acople 60 mm a marco de 3 gu\u00edas",
+    "weight": "0.753",
+    "image": "",
+    "length": 6000
+  }
+},
+{
+  "model": "main.profile",
+  "pk": 9,
+  "fields": {
+    "system": 1,
+    "code": "6069",
+    "description": "acople a 90 grados",
+    "weight": "0.937",
+    "image": "",
+    "length": 6000
+  }
+},
+{
+  "model": "main.profile",
+  "pk": 10,
+  "fields": {
+    "system": 1,
+    "code": "6070",
+    "description": "acople a 135 grados",
+    "weight": "0.743",
+    "image": "",
+    "length": 6000
+  }
+},
+{
+  "model": "main.profile",
+  "pk": 11,
+  "fields": {
+    "system": 1,
+    "code": "5997",
+    "description": "travesa\u00f1o corrediza para vidrio DVH",
+    "weight": "0.861",
+    "image": "",
+    "length": 6000
+  }
+},
+{
+  "model": "main.profile",
+  "pk": 12,
+  "fields": {
+    "system": 1,
+    "code": "6071",
+    "description": "parante lateral corredizo p/DVH",
+    "weight": "1.334",
+    "image": "",
+    "length": 6000
+  }
+},
+{
+  "model": "main.profile",
+  "pk": 13,
+  "fields": {
+    "system": 1,
+    "code": "6011",
+    "description": "marco vidrio repartido para vidrio simple",
+    "weight": "0.521",
+    "image": "",
+    "length": 6000
+  }
+},
+{
+  "model": "main.profile",
+  "pk": 14,
+  "fields": {
+    "system": 1,
+    "code": "6072",
+    "description": "parante central corrediza p/DVH",
+    "weight": "1.466",
+    "image": "",
+    "length": 6000
+  }
+},
+{
+  "model": "main.profile",
+  "pk": 15,
+  "fields": {
+    "system": 1,
+    "code": "6073",
+    "description": "z\u00f3calo y cabezal corrediza p/DVH",
+    "weight": "0.861",
+    "image": "",
+    "length": 6000
+  }
+},
+{
+  "model": "main.profile",
+  "pk": 16,
+  "fields": {
+    "system": 1,
+    "code": "6012",
+    "description": "travesa\u00f1o vidrio repartido para vidrio simple",
+    "weight": "0.543",
+    "image": "",
+    "length": 6000
+  }
+},
+{
+  "model": "main.profile",
+  "pk": 17,
+  "fields": {
+    "system": 1,
+    "code": "6013",
+    "description": "guia cortina central",
+    "weight": "1.288",
+    "image": "",
+    "length": 6000
+  }
+},
+{
+  "model": "main.profile",
+  "pk": 18,
+  "fields": {
+    "system": 1,
+    "code": "6074",
+    "description": "z\u00f3calo alto corrediza p/DVH",
+    "weight": "1.412",
+    "image": "",
+    "length": 6000
+  }
+},
+{
+  "model": "main.profile",
+  "pk": 19,
+  "fields": {
+    "system": 1,
+    "code": "6075",
+    "description": "hoja puerta vaiv\u00e9n",
+    "weight": "1.544",
+    "image": "",
+    "length": 6000
+  }
+},
+{
+  "model": "main.profile",
+  "pk": 20,
+  "fields": {
+    "system": 1,
+    "code": "6076",
+    "description": "marco puerta vaiv\u00e9n",
+    "weight": "1.185",
+    "image": "",
+    "length": 6000
+  }
+},
+{
+  "model": "main.profile",
+  "pk": 21,
+  "fields": {
+    "system": 1,
+    "code": "6021",
+    "description": "premarco con tope interior",
+    "weight": "0.780",
+    "image": "",
+    "length": 6000
+  }
+},
+{
+  "model": "main.profile",
+  "pk": 22,
+  "fields": {
+    "system": 1,
+    "code": "6077",
+    "description": "tapa marco y puerta vaiv\u00e9n",
+    "weight": "0.578",
+    "image": "",
+    "length": 6000
+  }
+},
+{
+  "model": "main.profile",
+  "pk": 23,
+  "fields": {
+    "system": 1,
+    "code": "6023",
+    "description": "marco vidrio repartido para vidrio DVH",
+    "weight": "0.470",
+    "image": "",
+    "length": 6000
+  }
+},
+{
+  "model": "main.profile",
+  "pk": 24,
+  "fields": {
+    "system": 1,
+    "code": "6078",
+    "description": "perfil de acople reforzado",
+    "weight": "1.758",
+    "image": "",
+    "length": 6000
+  }
+},
+{
+  "model": "main.profile",
+  "pk": 25,
+  "fields": {
+    "system": 1,
+    "code": "6079",
+    "description": "premarco corrediza de 3 hojas",
+    "weight": "0.994",
+    "image": "",
+    "length": 6000
+  }
+},
+{
+  "model": "main.profile",
+  "pk": 26,
+  "fields": {
+    "system": 1,
+    "code": "6024",
+    "description": "travesa\u00f1o vidrio repartido para vidrio DVH",
+    "weight": "0.454",
+    "image": "",
+    "length": 6000
+  }
+},
+{
+  "model": "main.profile",
+  "pk": 27,
+  "fields": {
+    "system": 1,
+    "code": "6080",
+    "description": "jamba de marco corrediza de 3 hojas",
+    "weight": "2.908",
+    "image": "",
+    "length": 6000
+  }
+},
+{
+  "model": "main.profile",
+  "pk": 28,
+  "fields": {
+    "system": 1,
+    "code": "6027",
+    "description": "tapa premarco interior para 6021",
+    "weight": "0.251",
+    "image": "",
+    "length": 6000
+  }
+},
+{
+  "model": "main.profile",
+  "pk": 29,
+  "fields": {
+    "system": 1,
+    "code": "6082",
+    "description": "parante central tercer hoja p/DVH",
+    "weight": "1.463",
+    "image": "",
+    "length": 6000
+  }
+},
+{
+  "model": "main.profile",
+  "pk": 30,
+  "fields": {
+    "system": 1,
+    "code": "6028",
+    "description": "tapa premarco exterior para 6021",
+    "weight": "0.205",
+    "image": "",
+    "length": 6000
+  }
+},
+{
+  "model": "main.profile",
+  "pk": 31,
+  "fields": {
+    "system": 1,
+    "code": "6034",
+    "description": "parante lateral corrediza",
+    "weight": "1.399",
+    "image": "",
+    "length": 6000
+  }
+},
+{
+  "model": "main.profile",
+  "pk": 32,
+  "fields": {
+    "system": 1,
+    "code": "6083",
+    "description": "parante central tercer hoja",
+    "weight": "1.528",
+    "image": "",
+    "length": 6000
+  }
+},
+{
+  "model": "main.profile",
+  "pk": 33,
+  "fields": {
+    "system": 1,
+    "code": "6084",
+    "description": "acople marco 3 gu\u00edas",
+    "weight": "0.770",
+    "image": "",
+    "length": 6000
+  }
+},
+{
+  "model": "main.profile",
+  "pk": 34,
+  "fields": {
+    "system": 1,
+    "code": "6035",
+    "description": "parante central corrediza",
+    "weight": "1.531",
+    "image": "",
+    "length": 6000
+  }
+},
+{
+  "model": "main.profile",
+  "pk": 35,
+  "fields": {
+    "system": 1,
+    "code": "6206",
+    "description": "tapa premarco",
+    "weight": "0.186",
+    "image": "",
+    "length": 6000
+  }
+},
+{
+  "model": "main.profile",
+  "pk": 36,
+  "fields": {
+    "system": 1,
+    "code": "6036",
+    "description": "jambas de marco",
+    "weight": "0.891",
+    "image": "",
+    "length": 6000
+  }
+},
+{
+  "model": "main.profile",
+  "pk": 37,
+  "fields": {
+    "system": 1,
+    "code": "6245",
+    "description": "tapa cinta",
+    "weight": "0.678",
+    "image": "",
+    "length": 6000
+  }
+},
+{
+  "model": "main.profile",
+  "pk": 38,
+  "fields": {
+    "system": 1,
+    "code": "6037",
+    "description": "umbral y dintel de marco",
+    "weight": "1.744",
+    "image": "",
+    "length": 6000
+  }
+},
+{
+  "model": "main.profile",
+  "pk": 39,
+  "fields": {
+    "system": 1,
+    "code": "6254",
+    "description": "bisagra tapa chinta",
+    "weight": "0.302",
+    "image": "",
+    "length": 6000
+  }
+},
+{
+  "model": "main.profile",
+  "pk": 40,
+  "fields": {
+    "system": 1,
+    "code": "6255",
+    "description": "mosquitero",
+    "weight": "0.424",
+    "image": "",
+    "length": 6000
+  }
+},
+{
+  "model": "main.profile",
+  "pk": 41,
+  "fields": {
+    "system": 1,
+    "code": "6038",
+    "description": "mosquitero reforzado",
+    "weight": "0.594",
+    "image": "",
+    "length": 6000
+  }
+},
+{
+  "model": "main.profile",
+  "pk": 42,
+  "fields": {
+    "system": 1,
+    "code": "6256",
+    "description": "travesa\u00f1o mosquitero",
+    "weight": "0.508",
+    "image": "",
+    "length": 6000
+  }
+},
+{
+  "model": "main.profile",
+  "pk": 43,
+  "fields": {
+    "system": 1,
+    "code": "6039",
+    "description": "tope mosquitero",
+    "weight": "0.329",
+    "image": "",
+    "length": 6000
+  }
+},
+{
+  "model": "main.profile",
+  "pk": 44,
+  "fields": {
+    "system": 1,
+    "code": "6521",
+    "description": "tapa premarco interior para 6021",
+    "weight": "0.308",
+    "image": "",
+    "length": 6000
+  }
+},
+{
+  "model": "main.profile",
+  "pk": 45,
+  "fields": {
+    "system": 1,
+    "code": "6088",
+    "description": "umbral corrediza caja 38 mm",
+    "weight": "1.968",
+    "image": "",
+    "length": 6000
+  }
+},
+{
+  "model": "main.profile",
+  "pk": 46,
+  "fields": {
+    "system": 1,
+    "code": "6040",
+    "description": "marco puerta de rebatir",
+    "weight": "1.180",
+    "image": "",
+    "length": 6000
+  }
+},
+{
+  "model": "main.profile",
+  "pk": 47,
+  "fields": {
+    "system": 1,
+    "code": "6064",
+    "description": "gu\u00eda de cortina com\u00fan",
+    "weight": "0.672",
+    "image": "",
+    "length": 6000
+  }
+},
+{
+  "model": "main.profile",
+  "pk": 48,
+  "fields": {
+    "system": 1,
+    "code": "6041",
+    "description": "hoja puerta de rebatir",
+    "weight": "1.388",
+    "image": "",
+    "length": 6000
+  }
+},
+{
+  "model": "main.profile",
+  "pk": 49,
+  "fields": {
+    "system": 1,
+    "code": "6062",
+    "description": "z\u00f3calo alto puerta corrediza",
+    "weight": "1.477",
+    "image": "",
+    "length": 6000
+  }
+},
+{
+  "model": "main.profile",
+  "pk": 50,
+  "fields": {
+    "system": 1,
+    "code": "6061",
+    "description": "z\u00f3calo y cabezal ventana corrediza",
+    "weight": "0.942",
+    "image": "",
+    "length": 6000
+  }
+},
+{
+  "model": "main.profile",
+  "pk": 51,
+  "fields": {
+    "system": 1,
+    "code": "6042",
+    "description": "travesa\u00f1o puerta de rebatir",
+    "weight": "1.399",
+    "image": "",
+    "length": 6000
+  }
+},
+{
+  "model": "main.profile",
+  "pk": 52,
+  "fields": {
+    "system": 1,
+    "code": "6043",
+    "description": "z\u00f3calo puerta de rebatir",
+    "weight": "2.319",
+    "image": "",
+    "length": 6000
+  }
+},
+{
+  "model": "main.profile",
+  "pk": 53,
+  "fields": {
+    "system": 1,
+    "code": "6060",
+    "description": "travesa\u00f1o pa\u00f1o fijo",
+    "weight": "1.091",
+    "image": "",
+    "length": 6000
+  }
+},
+{
+  "model": "main.profile",
+  "pk": 54,
+  "fields": {
+    "system": 1,
+    "code": "6044",
+    "description": "encentro central puerta de rebatir",
+    "weight": "1.037",
+    "image": "",
+    "length": 6000
+  }
+},
+{
+  "model": "main.profile",
+  "pk": 55,
+  "fields": {
+    "system": 1,
+    "code": "6059",
+    "description": "marco recto pa\u00f1o fijo y ventana de abrir",
+    "weight": "1.053",
+    "image": "",
+    "length": 6000
+  }
+},
+{
+  "model": "main.profile",
+  "pk": 56,
+  "fields": {
+    "system": 1,
+    "code": "6058",
+    "description": "hoja recta ventana desplazable",
+    "weight": "1.345",
+    "image": "",
+    "length": 6000
+  }
+},
+{
+  "model": "main.profile",
+  "pk": 57,
+  "fields": {
+    "system": 1,
+    "code": "6045",
+    "description": "contravidrio recto p/vidrio simple",
+    "weight": "0.351",
+    "image": "",
+    "length": 6000
+  }
+},
+{
+  "model": "main.profile",
+  "pk": 58,
+  "fields": {
+    "system": 1,
+    "code": "6055",
+    "description": "marco pa\u00f1o fijo y ventana de abrir",
+    "weight": "1.037",
+    "image": "",
+    "length": 6000
+  }
+},
+{
+  "model": "main.profile",
+  "pk": 59,
+  "fields": {
+    "system": 1,
+    "code": "6046",
+    "description": "contravidrio recto p/DVH",
+    "weight": "0.259",
+    "image": "",
+    "length": 6000
+  }
+},
+{
+  "model": "main.profile",
+  "pk": 60,
+  "fields": {
+    "system": 1,
+    "code": "6054",
+    "description": "hoja recta ventana de abrir",
+    "weight": "1.148",
+    "image": "",
+    "length": 6000
+  }
+},
+{
+  "model": "main.profile",
+  "pk": 61,
+  "fields": {
+    "system": 1,
+    "code": "6053",
+    "description": "encuentro central ventana de abrir",
+    "weight": "1.037",
+    "image": "",
+    "length": 6000
+  }
+},
+{
+  "model": "main.profile",
+  "pk": 62,
+  "fields": {
+    "system": 1,
+    "code": "6052",
+    "description": "hoja curva ventana de abrir",
+    "weight": "1.139",
+    "image": "",
+    "length": 6000
+  }
+},
+{
+  "model": "main.profile",
+  "pk": 63,
+  "fields": {
+    "system": 1,
+    "code": "6047",
+    "description": "contravidrio curvo p/vidrio simple",
+    "weight": "0.254",
+    "image": "",
+    "length": 6000
+  }
+},
+{
+  "model": "main.profile",
+  "pk": 64,
+  "fields": {
+    "system": 1,
+    "code": "6051",
+    "description": "marco ventana de abrir",
+    "weight": "0.986",
+    "image": "",
+    "length": 6000
+  }
+},
+{
+  "model": "main.profile",
+  "pk": 65,
+  "fields": {
+    "system": 1,
+    "code": "6048",
+    "description": "contravidrio curvo p/DVH",
+    "weight": "0.197",
+    "image": "",
+    "length": 6000
+  }
+},
+{
+  "model": "main.profile",
+  "pk": 66,
+  "fields": {
+    "system": 1,
+    "code": "6050",
+    "description": "contravidrio curvo lado ext. puerta de rebatir",
+    "weight": "0.192",
+    "image": "",
+    "length": 6000
+  }
+},
+{
+  "model": "main.profile",
+  "pk": 67,
+  "fields": {
+    "system": 1,
+    "code": "6049",
+    "description": "contravidrio recto lado ext. puerta de rebatir",
+    "weight": "0.232",
+    "image": "",
+    "length": 6000
+  }
+},
+{
+  "model": "main.profile",
+  "pk": 68,
+  "fields": {
+    "system": 2,
+    "code": "4148",
+    "description": "tapajunta para atornillar",
+    "weight": "0.346",
+    "image": "",
+    "length": 6000
+  }
+},
+{
+  "model": "main.profile",
+  "pk": 69,
+  "fields": {
+    "system": 2,
+    "code": "4148",
+    "description": "tapajunta para atornillar",
+    "weight": "0.346",
+    "image": "",
+    "length": 6000
+  }
+},
+{
+  "model": "main.profile",
+  "pk": 70,
+  "fields": {
+    "system": 2,
+    "code": "6200",
+    "description": "umbral y dintel marco ventana y puerta corrediza",
+    "weight": "1.266",
+    "image": "",
+    "length": 6000
+  }
+},
+{
+  "model": "main.profile",
+  "pk": 71,
+  "fields": {
+    "system": 2,
+    "code": "6201",
+    "description": "jamba marco ventana y puerta corrediza",
+    "weight": "0.664",
+    "image": "",
+    "length": 6000
+  }
+},
+{
+  "model": "main.profile",
+  "pk": 72,
+  "fields": {
+    "system": 2,
+    "code": "6203",
+    "description": "parante lateral hoja vidrio simple ventana y puerta corrediza",
+    "weight": "0.651",
+    "image": "",
+    "length": 6000
+  }
+},
+{
+  "model": "main.profile",
+  "pk": 73,
+  "fields": {
+    "system": 2,
+    "code": "6204",
+    "description": "z\u00f3calo y cabezal hoja vidrio simple ventana y puerta corrediza",
+    "weight": "0.721",
+    "image": "",
+    "length": 6000
+  }
+},
+{
+  "model": "main.profile",
+  "pk": 74,
+  "fields": {
+    "system": 2,
+    "code": "6205",
+    "description": "premarco",
+    "weight": "0.410",
+    "image": "",
+    "length": 6000
+  }
+},
+{
+  "model": "main.profile",
+  "pk": 75,
+  "fields": {
+    "system": 2,
+    "code": "6206",
+    "description": "tapa premarco",
+    "weight": "0.186",
+    "image": "",
+    "length": 6000
+  }
+},
+{
+  "model": "main.profile",
+  "pk": 76,
+  "fields": {
+    "system": 2,
+    "code": "6207",
+    "description": "parante central hoja vidrio simple ventana y puerta corrediza",
+    "weight": "0.613",
+    "image": "",
+    "length": 6000
+  }
+},
+{
+  "model": "main.profile",
+  "pk": 77,
+  "fields": {
+    "system": 2,
+    "code": "6208",
+    "description": "parante central reforzado hoja vidrio simple puerta corrediza",
+    "weight": "0.813",
+    "image": "",
+    "length": 6000
+  }
+},
+{
+  "model": "main.profile",
+  "pk": 78,
+  "fields": {
+    "system": 2,
+    "code": "6209",
+    "description": "z\u00f3calo alto hoja vidrio simple puerta corrediza",
+    "weight": "1.266",
+    "image": "",
+    "length": 6000
+  }
+},
+{
+  "model": "main.profile",
+  "pk": 79,
+  "fields": {
+    "system": 2,
+    "code": "6210",
+    "description": "marco ventana de abrir con c\u00e1mara compensadora",
+    "weight": "0.786",
+    "image": "",
+    "length": 6000
+  }
+},
+{
+  "model": "main.profile",
+  "pk": 80,
+  "fields": {
+    "system": 2,
+    "code": "6211",
+    "description": "hoja ventana de abrir con c\u00e1mara compensadora",
+    "weight": "0.848",
+    "image": "",
+    "length": 6000
+  }
+},
+{
+  "model": "main.profile",
+  "pk": 81,
+  "fields": {
+    "system": 2,
+    "code": "6212",
+    "description": "contravidrio de 36 mm",
+    "weight": "0.316",
+    "image": "",
+    "length": 6000
+  }
+},
+{
+  "model": "main.profile",
+  "pk": 82,
+  "fields": {
+    "system": 2,
+    "code": "6213",
+    "description": "perfil de acople simple",
+    "weight": "0.257",
+    "image": "",
+    "length": 6000
+  }
+},
+{
+  "model": "main.profile",
+  "pk": 83,
+  "fields": {
+    "system": 2,
+    "code": "6214",
+    "description": "jamba y cabezal hoja puerta rebatir",
+    "weight": "1.088",
+    "image": "",
+    "length": 6000
+  }
+},
+{
+  "model": "main.profile",
+  "pk": 84,
+  "fields": {
+    "system": 2,
+    "code": "6215",
+    "description": "hoja ventana de abrir dc/banderola",
+    "weight": "0.864",
+    "image": "",
+    "length": 6000
+  }
+},
+{
+  "model": "main.profile",
+  "pk": 85,
+  "fields": {
+    "system": 2,
+    "code": "6216",
+    "description": "marco vent. abrir dc/banderola/pta. rebatir/ventiluz/pf recto",
+    "weight": "0.740",
+    "image": "",
+    "length": 6000
+  }
+},
+{
+  "model": "main.profile",
+  "pk": 86,
+  "fields": {
+    "system": 2,
+    "code": "6217",
+    "description": "contravidrio de 29 mm",
+    "weight": "0.294",
+    "image": "",
+    "length": 6000
+  }
+},
+{
+  "model": "main.profile",
+  "pk": 87,
+  "fields": {
+    "system": 2,
+    "code": "6218",
+    "description": "travesa\u00f1o hoja puerta de rebatir",
+    "weight": "1.150",
+    "image": "",
+    "length": 6000
+  }
+},
+{
+  "model": "main.profile",
+  "pk": 88,
+  "fields": {
+    "system": 2,
+    "code": "6219",
+    "description": "z\u00f3calo hoja puerta de rebatir",
+    "weight": "0.176",
+    "image": "",
+    "length": 6000
+  }
+},
+{
+  "model": "main.profile",
+  "pk": 89,
+  "fields": {
+    "system": 2,
+    "code": "6220",
+    "description": "contravidrio exterior puerta de rebatir",
+    "weight": "0.176",
+    "image": "",
+    "length": 6000
+  }
+},
+{
+  "model": "main.profile",
+  "pk": 90,
+  "fields": {
+    "system": 2,
+    "code": "6021",
+    "description": "travesa\u00f1o angosto pa\u00f1o fijo",
+    "weight": "0.767",
+    "image": "",
+    "length": 6000
+  }
+},
+{
+  "model": "main.profile",
+  "pk": 91,
+  "fields": {
+    "system": 2,
+    "code": "6222",
+    "description": "travesa\u00f1o ancho pa\u00f1o fijo",
+    "weight": "0.842",
+    "image": "",
+    "length": 6000
+  }
+},
+{
+  "model": "main.profile",
+  "pk": 92,
+  "fields": {
+    "system": 2,
+    "code": "6223",
+    "description": "encuentro central ventana de abrir 2 hojas c/c\u00e1mara compens.",
+    "weight": "0.918",
+    "image": "",
+    "length": 6000
+  }
+},
+{
+  "model": "main.profile",
+  "pk": 93,
+  "fields": {
+    "system": 2,
+    "code": "6224",
+    "description": "encuentro central ventana de abrir 2 hojas dc/pta. de rebatir",
+    "weight": "0.794",
+    "image": "",
+    "length": 6000
+  }
+},
+{
+  "model": "main.profile",
+  "pk": 94,
+  "fields": {
+    "system": 2,
+    "code": "6225",
+    "description": "contravidrio de 22 mm",
+    "weight": "0.257",
+    "image": "",
+    "length": 6000
+  }
+},
+{
+  "model": "main.profile",
+  "pk": 95,
+  "fields": {
+    "system": 2,
+    "code": "6226",
+    "description": "contravidrio de 15 mm",
+    "weight": "0.211",
+    "image": "",
+    "length": 6000
+  }
+},
+{
+  "model": "main.profile",
+  "pk": 96,
+  "fields": {
+    "system": 2,
+    "code": "6227",
+    "description": "hoja ventiluz",
+    "weight": "0.864",
+    "image": "",
+    "length": 6000
+  }
+},
+{
+  "model": "main.profile",
+  "pk": 97,
+  "fields": {
+    "system": 2,
+    "code": "6228",
+    "description": "tope mosquitero ventana y puerta corrediza",
+    "weight": "0.186",
+    "image": "",
+    "length": 6000
+  }
+},
+{
+  "model": "main.profile",
+  "pk": 98,
+  "fields": {
+    "system": 2,
+    "code": "6229",
+    "description": "pa\u00f1o fijo curvo",
+    "weight": "0.780",
+    "image": "",
+    "length": 6000
+  }
+},
+{
+  "model": "main.profile",
+  "pk": 99,
+  "fields": {
+    "system": 2,
+    "code": "6230",
+    "description": "contravidrio curvo 29 mm",
+    "weight": "0.213",
+    "image": "",
+    "length": 6000
+  }
+},
+{
+  "model": "main.profile",
+  "pk": 100,
+  "fields": {
+    "system": 2,
+    "code": "6231",
+    "description": "contravidrio curvo 15 mm",
+    "weight": "0.159",
+    "image": "",
+    "length": 6000
+  }
+},
+{
+  "model": "main.profile",
+  "pk": 101,
+  "fields": {
+    "system": 2,
+    "code": "6232",
+    "description": "contravidrio curvo 22 mm",
+    "weight": "0.181",
+    "image": "",
+    "length": 6000
+  }
+},
+{
+  "model": "main.profile",
+  "pk": 102,
+  "fields": {
+    "system": 2,
+    "code": "6233",
+    "description": "contravidrio curvo 8 mm",
+    "weight": "0.135",
+    "image": "",
+    "length": 6000
+  }
+},
+{
+  "model": "main.profile",
+  "pk": 103,
+  "fields": {
+    "system": 2,
+    "code": "6234",
+    "description": "hoja curva ventana de abrir con c\u00e1mara compensadora",
+    "weight": "0.888",
+    "image": "",
+    "length": 6000
+  }
+},
+{
+  "model": "main.profile",
+  "pk": 104,
+  "fields": {
+    "system": 2,
+    "code": "6235",
+    "description": "hoja curva ventana de abrir c/banderola",
+    "weight": "0.902",
+    "image": "",
+    "length": 6000
+  }
+},
+{
+  "model": "main.profile",
+  "pk": 105,
+  "fields": {
+    "system": 2,
+    "code": "6236",
+    "description": "hoja curva ventiluz",
+    "weight": "0.907",
+    "image": "",
+    "length": 6000
+  }
+},
+{
+  "model": "main.profile",
+  "pk": 106,
+  "fields": {
+    "system": 2,
+    "code": "6237",
+    "description": "contravidrio curvo exterior puerta de rebatir",
+    "weight": "0.176",
+    "image": "",
+    "length": 6000
+  }
+},
+{
+  "model": "main.profile",
+  "pk": 107,
+  "fields": {
+    "system": 2,
+    "code": "6238",
+    "description": "contravidrio 8 mm",
+    "weight": "0.189",
+    "image": "",
+    "length": 6000
+  }
+},
+{
+  "model": "main.profile",
+  "pk": 108,
+  "fields": {
+    "system": 2,
+    "code": "6239",
+    "description": "travesa\u00f1o hoja vidrio simple puerta corrediza",
+    "weight": "0.748",
+    "image": "",
+    "length": 6000
+  }
+},
+{
+  "model": "main.profile",
+  "pk": 109,
+  "fields": {
+    "system": 2,
+    "code": "6240",
+    "description": "umbral y dintel marco 3 gu\u00edas ventana y puerta corrediza",
+    "weight": "1.841",
+    "image": "",
+    "length": 6000
+  }
+},
+{
+  "model": "main.profile",
+  "pk": 110,
+  "fields": {
+    "system": 2,
+    "code": "6241",
+    "description": "jamba marco de 3 gu\u00edas ventana y puerta corrediza",
+    "weight": "0.972",
+    "image": "",
+    "length": 6000
+  }
+},
+{
+  "model": "main.cut",
+  "pk": 1,
+  "fields": {
+    "quantity": 2,
+    "profile": 6,
+    "description": "jambas premarco",
+    "formula": "$h+37",
+    "kind": "45-45"
+  }
+},
+{
+  "model": "main.cut",
+  "pk": 2,
+  "fields": {
+    "quantity": 2,
+    "profile": 6,
+    "description": "dintel y umbral premarco",
+    "formula": "$a+37",
+    "kind": "45-45"
+  }
+},
+{
+  "model": "main.cut",
+  "pk": 3,
+  "fields": {
+    "quantity": 2,
+    "profile": 35,
+    "description": "jambas tapa premarco",
+    "formula": "$h+54",
+    "kind": "45-45"
+  }
+},
+{
+  "model": "main.cut",
+  "pk": 4,
+  "fields": {
+    "quantity": 2,
+    "profile": 35,
+    "description": "dintel y umbral tapa premarco",
+    "formula": "$a+54",
+    "kind": "45-45"
+  }
+},
+{
+  "model": "main.cut",
+  "pk": 5,
+  "fields": {
+    "quantity": 2,
+    "profile": 36,
+    "description": "jambas marco",
+    "formula": "$h",
+    "kind": "90-90"
+  }
+},
+{
+  "model": "main.cut",
+  "pk": 6,
+  "fields": {
+    "quantity": 2,
+    "profile": 38,
+    "description": "umbral y dintel marco",
+    "formula": "$a - 45",
+    "kind": "90-90"
+  }
+},
+{
+  "model": "main.cut",
+  "pk": 7,
+  "fields": {
+    "quantity": 2,
+    "profile": 12,
+    "description": "parante lateral hoja (DVH)",
+    "formula": "$h - 86",
+    "kind": "90-90"
+  }
+},
+{
+  "model": "main.cut",
+  "pk": 8,
+  "fields": {
+    "quantity": 2,
+    "profile": 14,
+    "description": "parante central hoja (DVH)",
+    "formula": "$h - 86",
+    "kind": "90-90"
+  }
+},
+{
+  "model": "main.cut",
+  "pk": 9,
+  "fields": {
+    "quantity": 4,
+    "profile": 15,
+    "description": "z\u00f3calo y cabezal de hoja",
+    "formula": "($a/2)-14",
+    "kind": "90-90"
+  }
+},
+{
+  "model": "main.cut",
+  "pk": 10,
+  "fields": {
+    "quantity": 2,
+    "profile": 40,
+    "description": "jambas mosquitero",
+    "formula": "$h - 96",
+    "kind": "45-45"
+  }
+},
+{
+  "model": "main.cut",
+  "pk": 11,
+  "fields": {
+    "quantity": 2,
+    "profile": 40,
+    "description": "z\u00f3calo y cabezal de mosquitero",
+    "formula": "($a/2)+10",
+    "kind": "90-90"
+  }
+},
+{
+  "model": "main.cut",
+  "pk": 12,
+  "fields": {
+    "quantity": 2,
+    "profile": 43,
+    "description": "tope mosquitero",
+    "formula": "$h - 109",
+    "kind": "90-90"
+  }
+},
+{
+  "model": "main.openingkind",
+  "pk": 1,
+  "fields": {
+    "name": "VC2 /DVH",
+    "description": "Ventana corrediza de 2 hojas con DVH",
+    "dvh": true,
+    "system": 1,
+    "cuts": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  }
+}
+]
